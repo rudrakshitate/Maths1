@@ -1,0 +1,80 @@
+body
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIX_WtVC8SLDNymWVIVzhV1CwH6-NNvXJ7y-zNpUK1A5s7y-DCyf2jZUOs1uB3-y1k44&usqp=CAU);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(223, 86, 86);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 30%;
+		height: 150px;
+		background-color: rgb(133, 101, 43);
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 3px;
+	color: rgb(255, 212, 71);
+	font-weight: bold;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #bbdf1c;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
+h1{
+	color: rgb(0, 132, 255);
+	font-family: 'font-family: serif', cursive;
+}
+h3{
+	font-family: 'Lora', serif;
+	color: rgb(128, 126, 0);
+}
+#username{
+	font-family: 'Yellowtail', cursive;
+	color: rgb(224, 96, 64);
+}
+button{
+	font-family: serif;
+}
+input:hover{
+	background-color: rgb(249, 178, 224);
+}
+.login_div2:hover{
+	border: 5px solid rgb(218, 152, 198);
+	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(6, 102, 14);
+	width: 35%;
+}
+#number_1,#number_2
+{
+	color: rgb(54, 39, 59);
+	font-weight: bold;
+}
+h4{
+	color: rgb(165, 243, 248);
+	font-family: 'Akaya Kanadaka', cursive;
+	width: 100px;
+}
+h4:hover{
+	text-decoration: underline;
+}
